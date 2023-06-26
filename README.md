@@ -11,6 +11,7 @@ class SumofDigits{
         if(n==0){
             return 0;
         }
+        
         return sd(n/10)+n%10;
 
     }
